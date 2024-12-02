@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+body {
+    font-family: "Jura", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #d3e2c6; /* Світло-зелений фон */
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/pizza.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 1000;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
