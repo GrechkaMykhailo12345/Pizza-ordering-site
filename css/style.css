@@ -191,15 +191,29 @@ img {
 }
 
 footer {
-    position: absolute;
-    bottom: -725px; /* Відступ від нижнього краю */
-    font-size: 14px;
-    color: white;
+    /* Відступ від нижнього краю */
+    color: black;
 }
 
-.pizza-list{
+.pizza-list {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+}
+
+.popular-pizza {
+    /* Найпопулярніші піци */
+    /* Найпопулярніші піци */
+    text-align: center;
+
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #000000;
+
+
 }

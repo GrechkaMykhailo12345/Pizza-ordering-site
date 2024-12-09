@@ -21,5 +21,51 @@
         "price": 120,
         "image": "Margarita pizza.png",
         "description": ""
+    },
+    {
+        "id": 4,
+        "title": "Піца Маргарита",
+        "price": 120,
+        "image": "Margarita pizza.png",
+        "description": ""
+    },
+
+    {
+        "id": 5,
+        "title": "Піца Маргарита",
+        "price": 120,
+        "image": "Margarita pizza.png",
+        "description": ""
+    },
+
+    {
+        "id": 6,
+        "title": "Піца Маргарита",
+        "price": 120,
+        "image": "Margarita pizza.png",
+        "description": ""
+    },
+    {
+        "id": 7,
+        "title": "Піца Маргарита",
+        "price": 120,
+        "image": "Margarita pizza.png",
+        "description": ""
+    },
+
+    {
+        "id": 8,
+        "title": "Піца Маргарита",
+        "price": 120,
+        "image": "Margarita pizza.png",
+        "description": ""
+    },
+
+    {
+        "id": 9,
+        "title": "Піца Маргарита",
+        "price": 120,
+        "image": "Margarita pizza.png",
+        "description": ""
     }
 ]
