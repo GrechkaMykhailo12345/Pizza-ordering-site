@@ -29,9 +29,9 @@ function getCardHtml(pizza) {
     return `<div class="card" style="width: 18rem;">
   <img src="img/${pizza.image}" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">${pizza.image}Card title</h5>
+    <h5 class="card-title">${pizza.title}</h5>
     <h6>${pizza.price} грн</h6>
-    <button class="btn btn-primary">Відкрити</button>
+    <button class="btn btn-primary">Оплатити</button>
   </div>
 </div>`
 }

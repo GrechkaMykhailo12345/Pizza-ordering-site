@@ -217,3 +217,21 @@ footer {
 
 
 }
+
+.next-to-ordering-pizza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f9f9f9;
+    display: inline-block;
+    padding: 20px 40px; /* Збільшений відступ */
+    background-color: #d1c5a8; /* Колір фону */
+    color: black; /* Колір тексту */
+    border: 2px solid black; /* Рамка */
+    text-decoration: none; /* Відсутність підкреслення тексту */
+    font-family: Arial, sans-serif;
+    font-size: 24px; /* Збільшений розмір шрифту */
+    cursor: pointer;
+    background-color: #c0b499;
+}
