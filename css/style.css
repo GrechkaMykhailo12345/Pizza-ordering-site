@@ -15,6 +15,24 @@ body {
     display: none;
 }
 
+#first-page {
+    display: none;
+}
+
+#about {
+    font-family: 'Jura', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -218,20 +236,23 @@ footer {
 
 }
 
-.next-to-ordering-pizza {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.text-container {
+    max-width: 600px;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.text-container p {
+    font-size: 16px;
+    color: #333;
     margin: 0;
-    background-color: #f9f9f9;
-    display: inline-block;
-    padding: 20px 40px; /* Збільшений відступ */
-    background-color: #d1c5a8; /* Колір фону */
-    color: black; /* Колір тексту */
-    border: 2px solid black; /* Рамка */
-    text-decoration: none; /* Відсутність підкреслення тексту */
-    font-family: Arial, sans-serif;
-    font-size: 24px; /* Збільшений розмір шрифту */
-    cursor: pointer;
-    background-color: #c0b499;
 }

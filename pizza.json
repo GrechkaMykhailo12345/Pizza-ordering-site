@@ -9,60 +9,137 @@
 
     {
         "id": 2,
-        "title": "Піца Маргарита",
-        "price": 120,
-        "image": "Margarita pizza.png",
+        "title": "Гавайська піца",
+        "price": 130,
+        "image": "Gavayska pizza.png",
         "description": ""
     },
 
     {
         "id": 3,
-        "title": "Піца Маргарита",
-        "price": 120,
-        "image": "Margarita pizza.png",
+        "title": "4 сири піца",
+        "price": 85,
+        "image": "4 cheeses Pizza.png",
         "description": ""
     },
+
     {
         "id": 4,
-        "title": "Піца Маргарита",
-        "price": 120,
-        "image": "Margarita pizza.png",
+        "title": "Пепероні піца",
+        "price": 70,
+        "image": "Peperoni Pizza.png",
         "description": ""
     },
 
     {
         "id": 5,
-        "title": "Піца Маргарита",
-        "price": 120,
-        "image": "Margarita pizza.png",
+        "title": "М'ясна піца",
+        "price": 90,
+        "image": "Meat pizza.png",
         "description": ""
     },
+
     {
         "id": 6,
-        "title": "Піца Маргарита",
-        "price": 120,
-        "image": "Margarita pizza.png",
+        "title": "Піца Капрічова",
+        "price": 95,
+        "image": "Caprichova pizza.png",
         "description": ""
     },
+
     {
         "id": 7,
-        "title": "Піца Маргарита",
-        "price": 120,
-        "image": "Margarita pizza.png",
+        "title": "Вегетаріаньска піца",
+        "price": 100,
+        "image": "Vegetarianska pizza.png",
         "description": ""
     },
+
     {
         "id": 8,
-        "title": "Піца Маргарита",
-        "price": 120,
-        "image": "Margarita pizza.png",
+        "title": "Кальцоне піца",
+        "price": 65,
+        "image": "Calcone pizza.png",
         "description": ""
     },
+
     {
         "id": 9,
-        "title": "Піца Маргарита",
+        "title": "Піца Чікаго",
+        "price": 60,
+        "image": "Pizza Chicago.png",
+        "description": ""
+    },
+
+    {
+        "id": 10,
+        "title": "Піца Маринара",
+        "price": 110,
+        "image": "Pizza Marinara.png",
+        "description": ""
+    },
+
+    {
+        "id": 11,
+        "title": "Піца Барбекю",
+        "price": 115,
+        "image": "Pizza Barbecu.png",
+        "description": ""
+    },
+
+    {
+        "id": 12,
+        "title": "Піца Боско",
+        "price": 100,
+        "image": "Pizza Bosko.png",
+        "description": ""
+    },
+
+    {
+        "id": 13,
+        "title": "Піца BBQ",
+        "price": 130,
+        "image": "Pizza BBQ.png",
+        "description": ""
+    },
+
+    {
+        "id": 14,
+        "title": "Піца 4 овочі",
+        "price": 75,
+        "image": "Pizza 4 vegetables.png",
+        "description": ""
+    },
+
+    {
+        "id": 15,
+        "title": "Піца на грилі",
+        "price": 100,
+        "image": "Grilled Pizza.png",
+        "description": ""
+    },
+
+    {
+        "id": 16,
+        "title": "Десертна піца",
+        "price": 140,
+        "image": "Desert Pizza.png",
+        "description": ""
+    },
+
+    {
+        "id": 17,
+        "title": "Піца з лососем",
         "price": 120,
-        "image": "Margarita pizza.png",
+        "image": "Pizza with salmon.png",
+        "description": ""
+    },
+
+    {
+        "id": 18,
+        "title": "Фруктова піца",
+        "price": 110,
+        "image": "Fruit Pizza.png",
         "description": ""
     }
 ]

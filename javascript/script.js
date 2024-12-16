@@ -11,10 +11,19 @@ async function getProducts() {
 let main_screen = document.querySelector(".main-screen")
 let all_products_btn = document.querySelector('.all-products-btn')
 let all_products = document.querySelector("#all-products")
+let first_page = document.querySelector("#first-page")
+let about_btn = document.querySelector('.about-btn')
+let about = document.querySelector('#about')
 all_products_btn.addEventListener("click", function (e){
     e.preventDefault()
     main_screen.style.display = "none"
     all_products.style.display = "block"
+})
+
+about_btn.addEventListener("click", function (e){
+    e.preventDefault()
+    main_screen.style.display = "none"
+    about_btn.style.display = "block"
 })
 
 let pizza_list = document.querySelector('.pizza-list')
@@ -31,7 +40,7 @@ function getCardHtml(pizza) {
   <div class="card-body">
     <h5 class="card-title">${pizza.title}</h5>
     <h6>${pizza.price} грн</h6>
-    <button class="btn btn-primary">Оплатити</button>
+    <button class="btn btn-primary">Додати в кошик</button>
   </div>
 </div>`
 }
