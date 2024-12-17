@@ -16,62 +16,67 @@
         <div class="logo"></div>
         <nav class="menu">
             <ul>
-                <li><a href="#first-page">Головна</a></li>
+                <li><a class="first-page-btn" href="#first-page">Головна</a></li>
                 <li><a class="all-products-btn" href="#products">Всі продукти</a></li>
                 <li><a class="about-btn" href="#about">Про сайт</a></li>
                 <li><a href="#basket">Кошик</a></li>
             </ul>
         </nav>
     </header>
-    <main class="main-screen">
-        <div class="pizza-banner">
-            <h1>Сайт замовлення піци</h1>
-            <form id="searchForm" role="search">
-                <input class="form-control me-2" type="search" placeholder="Пошук..." aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Перейти</button>
-              </form>
-        </div>
-        <h2 class="popular-pizza">Найпопулярніші піци</h2>
-        <!-- Slider main container -->
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="img/4 cheeses Pizza.png" alt="">
+    <main id="first-page">
+        <div class="first-page">
+            <main class="main-screen">
+                <div class="pizza-banner">
+                    <h1>Сайт замовлення піци</h1>
+                    <form id="searchForm" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Пошук..." aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Перейти</button>
+                    </form>
                 </div>
-                <div class="swiper-slide"><img src="img/Gavayska pizza.png" alt="">
-                </div>
-                <div class="swiper-slide"><img src="img/Margarita pizza.png" alt="">
-                </div>
-            </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
+                <h2 class="popular-pizza">Найпопулярніші піци</h2>
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="img/4 cheeses Pizza.png" alt="">
+                        </div>
+                        <div class="swiper-slide"><img src="img/Gavayska pizza.png" alt="">
+                        </div>
+                        <div class="swiper-slide"><img src="img/Margarita pizza.png" alt="">
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
 
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
 
-            <!-- If we need scrollbar -->
-            <!--   <div class="swiper-scrollbar"></div> -->
+                    <!-- If we need scrollbar -->
+                    <!--   <div class="swiper-scrollbar"></div> -->
+                </div>
         </div>
+    </main>
     </main>
     <main id="all-products">
         <div class="pizza-list container py-5">
 
         </div>
     </main>
-    <main id="pizza-page">
 
-    </main>
     <main id="about">
-        <div class="text-container">
-            <h1>Про сайт</h1>
-            <p>
-                Сайт замовлення піци — це веб-ресурс, який дозволяє клієнтам вибирати, замовляти та оплачувати піцу
-                онлайн. Такі сайти зазвичай належать піцеріям, мережам ресторанів або службам доставки їжі. Вони
-                пропонують зручний інтерфейс для вибору страв, а також функції, які роблять процес замовлення швидким та
-                комфортним.
-            </p>
+        <div class="about">
+            <div class="text-container">
+                <h1>Про сайт</h1>
+                <p>
+                    Сайт замовлення піци — це веб-ресурс, який дозволяє клієнтам вибирати, замовляти та оплачувати піцу
+                    онлайн. Такі сайти зазвичай належать піцеріям, мережам ресторанів або службам доставки їжі. Вони
+                    пропонують зручний інтерфейс для вибору страв, а також функції, які роблять процес замовлення
+                    швидким та
+                    комфортним.
+                </p>
+            </div>
         </div>
     </main>
     <div class="buttons-container">

@@ -25,6 +25,7 @@ function getCookieValue(cookieName) {
     return ''
 }
 
+
 class ShoppingCart {
     constructor() {
         this.items = {}
@@ -102,19 +103,32 @@ function getCartItem(pizza) {
 let main_screen = document.querySelector(".main-screen")
 let all_products_btn = document.querySelector('.all-products-btn')
 let all_products = document.querySelector("#all-products")
+let first_page_btn = document.querySelector(".first-page-btn")
 let first_page = document.querySelector("#first-page")
 let about_btn = document.querySelector('.about-btn')
 let about = document.querySelector('#about')
+
+function showScreen(current_screen){
+    first_page.style.display = "none"
+    all_products.style.display = "none"
+    about.style.display = "none"
+
+    current_screen.style.display = 'block'
+}
+
 all_products_btn.addEventListener("click", function (e) {
     e.preventDefault()
-    main_screen.style.display = "none"
-    all_products.style.display = "block"
+    showScreen(all_products)
 })
 
 about_btn.addEventListener("click", function (e) {
     e.preventDefault()
-    main_screen.style.display = "none"
-    about_btn.style.display = "block"
+    showScreen(about)
+})
+
+first_page_btn.addEventListener("click", function (e) {
+    e.preventDefault()
+    showScreen(first_page)
 })
 
 let pizza_list = document.querySelector('.pizza-list')
@@ -131,7 +145,7 @@ function getCardHtml(pizza) {
   <div class="card-body">
     <h5 class="card-title">${pizza.title}</h5>
     <h6>${pizza.price} грн</h6>
-    <button class="btn btn-primary">Додати в кошик</button>
+    <button class="btn btn-primary add-cart-btn" data-product='${JSON.stringify(pizza)}'>Додати в кошик</button>
   </div>
 </div>`
 }

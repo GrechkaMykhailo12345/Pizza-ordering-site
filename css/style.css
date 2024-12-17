@@ -20,6 +20,10 @@ body {
 }
 
 #about {
+    display: none;
+}
+
+.about {
     font-family: 'Jura', sans-serif;
     font-weight: 300;
     font-style: normal;
